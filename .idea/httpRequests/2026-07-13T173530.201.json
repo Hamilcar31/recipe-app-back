@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "title": "Tarte aux pommes",
+  "description": "Une tarte classique",
+  "ingredients": [
+    "pommes",
+    "pâte brisée",
+    "sucre",
+    "cannelle"
+  ],
+  "instructions": "Préchauffer le four à 180°C...",
+  "preparationTimeMinutes": 45,
+  "servings": 6
+}

@@ -1,0 +1,76 @@
+GET http://localhost:8080/api/recipes/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-13T173530-1.200.json
+
+###
+
+GET http://localhost:8080/api/recipes
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-13T173530.200.json
+
+###
+
+POST http://localhost:8080/api/recipes
+Content-Type: application/json
+Content-Length: 244
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Tarte aux pommes",
+  "description": "Une tarte classique",
+  "ingredients": ["pommes", "pâte brisée", "sucre", "cannelle"],
+  "instructions": "Préchauffer le four à 180°C...",
+  "preparationTimeMinutes": 45,
+  "servings": 6
+}
+
+<> 2026-07-13T173530.201.json
+
+###
+
+GET http://localhost:8080/api/recipes/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-13T171449.200.json
+
+###
+
+GET http://localhost:8080/api/recipes
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-07-13T171448.200.json
+
+###
+
+POST http://localhost:8080/api/recipes
+Content-Type: application/json
+Content-Length: 244
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Tarte aux pommes",
+  "description": "Une tarte classique",
+  "ingredients": ["pommes", "pâte brisée", "sucre", "cannelle"],
+  "instructions": "Préchauffer le four à 180°C...",
+  "preparationTimeMinutes": 45,
+  "servings": 6
+}
+
+<> 2026-07-13T171448.201.json
+
+###
+

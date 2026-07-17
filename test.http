@@ -1,0 +1,18 @@
+### Variables
+@host = localhost
+@port = 8080
+
+### 1. Enregistrer l'utilisateur hamilcar (si n'existe pas)
+###POST http://{{host}}:{{port}}/api/auth/register?username=hamilcar&password=password
+###Accept: application/json
+
+### 2. Connexion avec hamilcar pour obtenir le token JWT
+POST http://{{host}}:{{port}}/api/auth/login?username=hamilcar&password=password
+Accept: application/json
+
+> {% client.global.set("token", response.body.token); %}
+
+### 3. Récupérer toutes les recettes (avec token JWT)
+GET http://{{host}}:{{port}}/api/recipes
+Authorization: Bearer {{token}}
+Accept: application/json

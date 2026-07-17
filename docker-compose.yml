@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: recipe_user
+      POSTGRES_PASSWORD: recipe_pass
+      POSTGRES_DB: recipedb
+    ports:
+      - "5432:5432"
